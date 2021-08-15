@@ -1,0 +1,22 @@
+<web-app>
+<servlet>
+    <servlet-name>
+     shop
+    </servlet-name>
+	<servlet-class>
+ 	ShopDetails
+	</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>
+	  shop
+	</servlet-name>
+    <url-pattern>
+	 showdetails
+	</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+</web-app>
